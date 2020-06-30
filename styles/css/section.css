@@ -1,0 +1,48 @@
+.section {
+    position: relative;
+    width: 100%;
+    height: 80vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section::before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 50%;
+    height: 50%;
+    background: #008dff;
+    border-radius: 50%;
+    transform-origin: bottom;
+    transform:translateX(-50%) scale(4);
+}
+.section .content {
+    z-index: 1;
+}
+.hello-heading {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+}
+.section .content p,h4 {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+.section .content img {
+    height: 30%;
+    width: 30%;
+}
+.hello-heading {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    color: white;
+}
+/* wakru */
+#jam-digital{overflow:hidden; width:30%; height: 20%;}
+#hours{float:left; width:30%; height:30%; background-color:#6B9AB8}
+#minute{float:left; width:30%; height:30%; background-color:#A5B1CB}
+#second{float:left; width:30%; height:30%; background-color:#FF618A}
+#jam-digital p{color:#FFF; font-size:100%; text-align:center; margin-top:auto; margin-bottom: auto;}
+/* end waktu */

@@ -4,7 +4,6 @@ $(document).ready(function () {
             'Hello, World!',
             'I am Dendi.',
             'I am a Junior Web Develover.',
-            'I am from Universitas Maritim Raja Ali Haji',
         ],
         typeSpeed: 80,
         backSPeed: 60,
@@ -13,4 +12,3 @@ $(document).ready(function () {
         // smartBackspace: true // Default value
     });
 })
-document.getElementById("year_now").innerHTML = new Date().getFullYear();
