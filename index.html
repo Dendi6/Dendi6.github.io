@@ -1,250 +1,38 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="icon" type="image/x-icon" href="images/favicon.ico"/>
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
-    <link rel="stylesheet" href="styles/css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>myPortfolio &mdash; Dendi</title>
-    <script type="text/javascript">
-        window.setTimeout("waktu()",1000);
-        function waktu() {
-            var tanggal = new Date();
-            setTimeout("waktu()",1000);
-            document.getElementById("jam").innerHTML = tanggal.getHours();
-            document.getElementById("menit").innerHTML = tanggal.getMinutes();
-            document.getElementById("detik").innerHTML = tanggal.getSeconds();
-        }
-    </script>
+    <link rel="icon" type="image/x-icon" href="./images/favicon.ico"/>
+    <link rel="stylesheet" href="styles/css/style.css">
 </head>
-<body>
-    <section class="section">
-        <div class="container content">
-            <div class="ml-auto" id="jam-digital">
-                <div id="hours"><p id="jam"></p></div>
-                <div id="minute"><p id="menit"></p></div>
-                <div id="second"><p id="detik"></p></div>
+<body class="container">
+    <header>
+        <!-- Navigasi -->
+        <nav class="white nav" role="navigation">
+            <div class="nav-wrapper">    
+                <a href="#" class="brand-logo" id="logo-container">Hello</a>
+                <a href="#" class="sidenav-trigger" data-target="nav-mobile"><i class="material-icons">more_horiz</i></a>
+                <ul class="topnav right hide-on-med-and-down"></ul>
+                <ul class="sidenav" id="nav-mobile"></ul>
             </div>
-            <div class="media mt-5 mb-5">
-                <img src="./images/profile.png" class="mr-3 mt-auto mb-auto" alt="...">
-                <div class="media-body ml-3">
-                    <h3 class="mt-5"><span class="hello-heading"></span></h3>
-                    <h4 class="mt-0"><strong>Dendi</strong></h4>
-                    <p>My name is Dendi. I am 20 years old. I was born October 12,2000 in SungaiPinang.
-                        I am a junior web developer. 
-                        I am very interested in the responsive and flexible design development model on the website.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section>
-        <div class="container">
-            <h3 class="mt-5 mb-5 text-center"><strong>Certificate</strong>
-                <img src="images/porto.svg">
-            </h3>
-            <div class="mt-2 items">
-                <div class="card item">
-                    <img src="./images/certificate/Dasar.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <p class="card-title"><strong>Basic Web Developer</strong></p>
-                        <p class="card-text">the thing learned is the use of HTML CSS and Javascript. Require being able to create a responsive web.</p>
-                    </div>
-                </div>
-                <div class="card item">
-                    <img src="./images/certificate/Fundamental.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <p class="card-title"><strong>Front End Developer</strong></p>
-                        <p class="card-text">what is learned is how to write ECMAScript, Web Components, Node.js and NPM, Webpack, and Asynchronous Requests.
-                            the end of the class is the output of a web-based application that uses a free API</p>
-                    </div>
-                </div>
-                <div class="card item container">
-                    <img src="./images/certificate/Fundamental.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <p class="card-title"><strong>Javascript Seminar</strong></p>
-                        <p class="card-text">Seminar on how to write javascript to be neater, and responsive.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section>
-        <div>
-            <div class="container">
-                <h3 class="mt-5 mb-5 text-center"><strong>More About Me</strong></h3>
-            </div>
-            <div class="container mb-4">
-                <div class="row text-center card-deck mt-4 ml-2 mr-2 mb-5" style="height: 100px;">
-                  <div class="col-4 col-xs-4 col-md-4 card btn btn-outline-success" type="button" data-toggle="modal" data-target="#myskills">
-                    <p class="ml-auto mr-auto mt-auto mb-auto"><strong>Skills</strong></p>
-                  </div>
-                  <div class="col-4 col-xs-4 col-md-4 card btn btn-outline-dark" type="button" data-toggle="modal" data-target="#myexp">
-                    <p class="ml-auto mr-auto mt-auto mb-auto"><strong>Experience</strong></p>
-                  </div>
-                  <div class="col-4 col-xs-4 col-md-4 card btn btn-outline-primary" type="button" data-toggle="modal" data-target="#mypr">
-                    <p class="ml-auto mr-auto mt-auto mb-auto"><strong>My Project</strong></p>
-                  </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- modals skills -->
-    <div class="modal fade" id="myskills" tabindex="-1" role="dialog" aria-labelledby="myskillsableTitle" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-scrollable" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="myskillsableTitle">About My Skills</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <div class="container">
-                        <div>
-                            <p><strong>HTML</strong></p>
-                            <div class="containerM">
-                                <div class="skills html">90%</div>
-                            </div>
-                        </div>
-                        <div class="mt-3">
-                            <p><strong>CSS</strong></p>
-                            <div class="containerM">
-                                <div class="skills css">80%</div>
-                            </div>        
-                        </div>
-                        <div class="mt-3">
-                            <p><strong>Bootstrap</strong></p>
-                            <div class="containerM">
-                                <div class="skills bs">80%</div>
-                            </div>        
-                        </div>
-                        <div class="mt-3">
-                            <p><strong>Javascript</strong></p>
-                            <div class="containerM">
-                                <div class="skills js">60%</div>
-                            </div>        
-                        </div>
-                        <div class="mt-3">
-                            <p><strong>PHP</strong></p>
-                            <div class="containerM">
-                                <div class="skills php">40%</div>
-                            </div>
-                        </div>
-                        <div class="mt-3">
-                            <p><strong>Node JS</strong></p>
-                            <div class="containerM">
-                                <div class="skills ns">35%</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-outline-danger" data-dismiss="modal">Close</button>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- end-skill modals -->
-    <!-- Experience modals -->
-    <div class="modal fade" id="myexp" tabindex="-1" role="dialog" aria-labelledby="myexpableTitle" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-scrollable" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="myexpableTitle">About My Experience</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body" style="background-color: #474e5d">
-                    <div class="timeline">
-                        <div class="containerT right">
-                          <div class="contentT">
-                            <h2><strong>Freelance Desain and Video Editing (2018-2019)</strong></h2>
-                            <p>Make a simple logo design, edit a promotional video of a student activity unit.</p>
-                          </div>
-                        </div>
-                        <div class="containerT right">
-                          <div class="contentT">
-                            <h2><strong>Freelance Web Developer (2019-2020)</strong></h2>
-                            <p>Make a website and portfolio into a website for students. 
-                                I also made a simple web as a learning medium for students of education.</p>
-                          </div>
-                        </div>
-                        <div class="containerT right">
-                          <div class="contentT">
-                            <h2><strong>Labolatory Technical Assistant (2019-2020)</strong></h2>
-                            <p>Practicum Assistant in object oriented programming, teaches how to write programs using OOP. 
-                                like inheritance and others.</p>
-                          </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-outline-danger" data-dismiss="modal">Close</button>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- end Experience modals -->
-    <!-- about my projeck -->
-    <div class="modal fade" id="mypr" tabindex="-1" role="dialog" aria-labelledby="myprableTitle" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-scrollable modal-lg" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="myprableTitle">About My Project</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <div class="container">
-                        <div class="row mr-2 ml-2 mb-3">
-                            <div class="card">
-                                <h5 class="mt-3 text-center"><strong>Film Finder</strong></h5>
-                                <div class="card-body text-justify">
-                                    <p>Film Finder versi 1.0.0. Aplikasi ini memiliki fungsi sebagai media pencarian terhadap film.
-                                        film finder dapat di akses di <a href="https://dendi6.github.io/filmfinder" target="_blank">sini</a>
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="card mt-3">
-                                <h5 class="mt-3 text-center"><strong>The News Letter</strong></h5>
-                                <div class="card-body text-justify">
-                                    <p>the news letter merupakan aplikasi yang dikembangkan dengan tujuan untuk membaca berita.
-                                        aplikasi ini tidak bisa berfungsi secara comersial di karnakan menggunakan API secara gratis. 
-                                        untuk melihat bentuk aplikasi dapat di akses di <a href="https://dendi6.github.io/thenewsl" target="_blank">thenewsl</a>.<br>
-                                        untuk melihat fungsi aplikasi secara full, dapat melakukan uji developer yang dapat di akses di <a href="https://github.com/Dendi6/thenewsl" target="_blank">github</a>
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="card mt-3">
-                                <h5 class="mt-3 text-center"><strong>Covid 19</strong></h5>
-                                <div class="card-body text-justify">
-                                    <p>Merupakan Aplikasi yang digunkan sebagai media informasi dari covid 19.
-                                        Media menggunakan APi free yang tersedia di gitub. dan tidak bisa menjadi acuna informasi sebenarnya
-                                        <a href="https://dendi6.github.io/covid19" target="_blank">sini</a>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-outline-danger" data-dismiss="modal">Close</button>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- end aboout my projeck -->
-    <footer class="mt-5 mb-4" style="margin-top: 100px;">
-        <div class="container text-center">
-            <small class="m-0 text-footer">Copyright &copy; Dendi6.github.io <span id="year_now"></span>
+        </nav>
+        <!-- Akhir Navigasi -->
+    </header>
+    
+    <main>
+        <div id="body-content"></div>
+    </main>
+
+    <footer class="mt-5">
+        <div class="footer-copyright center-align">
+            <small>Copyright &copy; Dendi_<span id="year_now"></span>
             </small>
         </div>
     </footer>
+    
+    <script src="./index.js" type="module"></script>
+    <script src="./styles/js/materialize.min.js"></script>
 </body>
-<script src="index.js" type="module"></script>
 </html>
