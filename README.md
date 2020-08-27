@@ -7,8 +7,7 @@ This Is My Portofolio
 ---
 ## download
 untuk memulai projek lakukan clone. dengan cara
->git clone https://github.com/dendi6/dendi6.github.io
-
+>git clone https://github.com/Dendi6/Dendi6.github.io.git
 ## push ke github
 untuk melakukan push ke github dapat di lakukan dengan cara
 1. >git add .
