@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+@import "materialize.min.css";
+
+body {
+    font-family: 'Alata', sans-serif;
+    height: 100%;
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+main {
+    min-height: calc(80vh);
+}
+
+.nav {
+    box-shadow: none;
+}
+
+.nav a {
+    font-family: 'Raleway', sans-serif;
+    color : #3F6183;
+}
+
+.bold {
+    font-family: 'Raleway', sans-serif;
+}
+
+.mt-5 {
+    margin-top: 25px;
+}
+
+.mt-3 {
+    margin-top: 15px;
+}
+
+.radius {
+    border-radius: 20px;
+}
+
+.radius-5 {
+    border-radius: 50px;
+}
+
+.skill{
+    height: 49px;
+}
+
+.skill p {
+    transform: translateY(-50%);
+}
+
+.html {
+    background-color: #F2591F;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    text-align: center;
+}
+
+.css {
+    background-color: #30ACE0;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    text-align: center;
+}
+
+.javascript {
+    background-color: #F6E019;
+    font-family: 'Raleway', sans-serif;
+    color: #263238;
+    text-align: center;
+}
+
+.node {
+    background-color: #73B956;
+    font-family: 'Raleway', sans-serif;
+    color: #263238;
+    text-align: center;
+}
+
+.git {
+    background-color: #ECF0F1;
+    font-family: 'Raleway', sans-serif;
+    color: #362701;
+    text-align: center;
+}
+
+.card-image {
+    width: 200px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+@media screen and (min-width: 801px){
+    .img {
+        height: 300px;
+        width: 300px;
+        transform: translateY(-30%);
+    }
+    .tengah {
+        transform: translateY(50%);
+    }
+}
+@media screen and (min-width: 601px) and (max-width: 800px){
+    .img {
+        height: 200px;
+        width: 200px;
+    }
+    .text {
+        font-size: 15px;
+    }
+    .tengah {
+        transform: translateY(50%);
+    }
+}
+@media screen and (min-width: 301px) and (max-width: 600px){
+    .img {
+        height: 200px;
+        width: 200px;
+    }
+    .text {
+        font-size: 13px;
+    }
+    .bold {
+        font-size: 15px;
+    }
+    .nav a {
+        font-size: 20px;
+    }
+    .tengah {
+        transform: translateY(10%);
+    }
+    .btn {
+        width: 80px;
+        font-size: 9px;
+    }
+}
+@media screen and (max-width: 300px){
+    .img {
+        height: 180px;
+        width: 180px;
+    }
+    .text {
+        font-size: 10px;
+    }
+    .bold {
+        font-size: 10px;
+    }
+    .nav a {
+        font-size: 15px;
+    }
+}
+@media screen and (max-height: 600px){
+    .tengah {
+        transform: translateY(1%);
+    }
+}
