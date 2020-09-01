@@ -1,8 +1,13 @@
 ## Porotfolio
 
-**Version 1.4.0**</br>
+**Version 1.3.1**</br>
 This Is My Portofolio
 >https://dendi6.github.io/
+
+## what news ?
+<ol>
+    <li>Sertifikat Pemula Augmented Reality</li>
+</ol>
 
 ---
 ## download
