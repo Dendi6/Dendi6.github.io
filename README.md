@@ -1,12 +1,13 @@
 ## Porotfolio
 
-**Version 1.3.1**</br>
+**Version 1.3.2**</br>
 This Is My Portofolio
 >https://dendi6.github.io/
 
 ## what news ?
 <ol>
     <li>Sertifikat Pemula Augmented Reality</li>
+    <li>Filter Instagram CC</li>
 </ol>
 
 ---
